@@ -70,15 +70,22 @@ if (ano % 4 == 0){
 console.log("=====================================================================================================================")
 
 /*Escreva um programa para verificar se o número fornecido pelo usuário é primo.*/
-numPrimo = 5
+numPrimo = 4
 limite = (numPrimo / 2) || 0
-if (numPrimo <= 1){
-    console.log("Esse número é primo")
+divisores = 0
+
+if (numPrimo <= 1) {
+    console.log("Esse número não é primo");
 } else {
-    for (i = 2; i <= limite; i++){
+    for (var i = 2; i <= limite; i++) {
         if (numPrimo % i == 0) {
-            console.log("Esse número não é primo")
-            break
+            divisores++
         }
+    }
+
+    if (divisores > 0) {
+        console.log("Esse número não é primo");
+    } else {
+        console.log("Esse número é primo");
     }
 }
