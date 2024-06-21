@@ -1,3 +1,4 @@
+console.log("=====================================================================================================================")
 /*Crie um programa que resolva a equação quadrática (ax² + bx + c = 0) e informe as raízes, se existirem.*/
 let a = 1
 let b = -5
@@ -15,3 +16,4 @@ if (delta > 0) {
 } else {
     console.log('A equação não possui raízes reais.')
 }
+console.log("=====================================================================================================================")
