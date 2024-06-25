@@ -50,3 +50,38 @@ console.log("Números em ordem crescente: " + menor + ", " + meio + ", " + maior
 console.log("=====================================================================================================================")
 
 //Escreva um programa que verifique se um número fornecido pelo usuário é um múltiplo de outro número fornecido pelo usuário.
+num1 = 72
+num2 = 6
+
+if (num1 % num2 == 0){
+    console.log(num1, "é múltiplo de", num2)
+} else {
+    console.log(num1, "não é múltiplo de", num2)
+}
+console.log("=====================================================================================================================")
+
+//Faça um programa que leia o nome de um aluno e suas três notas, calcule a média e informe se ele está aprovado (média maior ou igual a 7) ou reprovado.
+nota1 = 10
+nota2 = 10
+nota3 = 4
+media = (nota1 + nota2 + nota3) / 3
+
+if (media >= 7){
+    console.log("Aprovado")
+} else {
+    console.log("Reprovado")
+}
+console.log("=====================================================================================================================")
+
+//Escreva um programa que leia o salário de um funcionário e aplique um aumento de acordo com a seguinte regra: salários menores que R$1000 recebem 20% de aumento, entre R$1000 e R$2000 recebem 15%, e acima de R$2000 recebem 10%.
+salario = 15000
+novoSalario = salario * 0.20
+
+if (salario < 1000){
+    console.log("Com um salário de R$", salario, "teve um aumento de 20% ficando com um novo salário de R$", novoSalario + salario) 
+} else if (salario <= 2000){
+    console.log("Com um salário de R$", salario, "teve um aumento de 20% ficando com um novo salário de R$", novoSalario + salario)
+} else {
+    console.log("Com um salário de R$", salario, "teve um aumento de 20% ficando com um novo salário de R$", novoSalario + salario)
+}
+console.log("=====================================================================================================================")

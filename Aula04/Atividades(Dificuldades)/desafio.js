@@ -128,7 +128,7 @@ avaliacao5 = 4
 media = (avaliacao1 + avaliacao2 + avaliacao3 + avaliacao4 + avaliacao5) / 5
 bemAvaliado = media >= 3
 
-if (bemAvaliado) {
+if (bemAvaliado){
     console.log("O filme está bem avaliado. Média: ", media)
 } else {
     console.log("O filme não está bem avaliado. Média: ", media)
