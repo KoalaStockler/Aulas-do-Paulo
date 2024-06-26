@@ -75,13 +75,13 @@ console.log("===================================================================
 
 //Escreva um programa que leia o salário de um funcionário e aplique um aumento de acordo com a seguinte regra: salários menores que R$1000 recebem 20% de aumento, entre R$1000 e R$2000 recebem 15%, e acima de R$2000 recebem 10%.
 salario = 15000
-novoSalario = salario * 0.20
+aumento = salario * 0.20
 
 if (salario < 1000){
-    console.log("Com um salário de R$", salario, "teve um aumento de 20% ficando com um novo salário de R$", novoSalario + salario) 
+    console.log("Com um salário de R$", salario, "teve um aumento de 20% ficando com um novo salário de R$", auemnto + salario) 
 } else if (salario <= 2000){
-    console.log("Com um salário de R$", salario, "teve um aumento de 20% ficando com um novo salário de R$", novoSalario + salario)
+    console.log("Com um salário de R$", salario, "teve um aumento de 20% ficando com um novo salário de R$", aumento + salario)
 } else {
-    console.log("Com um salário de R$", salario, "teve um aumento de 20% ficando com um novo salário de R$", novoSalario + salario)
+    console.log("Com um salário de R$", salario, "teve um aumento de 20% ficando com um novo salário de R$", aumento + salario)
 }
 console.log("=====================================================================================================================")
