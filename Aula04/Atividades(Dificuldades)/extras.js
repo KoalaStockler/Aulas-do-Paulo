@@ -85,3 +85,21 @@ if (salario < 1000){
     console.log("Com um salário de R$", salario, "teve um aumento de 20% ficando com um novo salário de R$", aumento + salario)
 }
 console.log("=====================================================================================================================")
+
+//Crie um programa que determine se um número fornecido pelo usuário é um número de Armstrong (narcisista).
+numero = 153
+soma = 0
+temp = numero
+numDigitos = numero.toString().length
+
+while (temp > 0){
+    digito = temp % 10;
+    soma += Math.pow(digito, numDigitos);
+    temp = Math.floor(temp / 10);
+}
+if (soma == numero){
+  console.log(numero + " é um número de Armstrong.")
+} else {
+  console.log(numero + " não é um número de Armstrong.")
+}
+console.log("=====================================================================================================================")
