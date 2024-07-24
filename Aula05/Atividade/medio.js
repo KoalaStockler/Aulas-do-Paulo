@@ -41,3 +41,23 @@ while (num <= 50) {
     }
     num++
 }
+console.log("=========================================================")
+//Soma de dígitos
+numero = 1020
+somaDigitos = 0
+
+while (numero > 0) {
+    digito = numero % 10
+    somaDigitos += digito
+    numero = Math.floor(numero / 10)
+}
+
+console.log ("A soma dos dígitos é", somaDigitos)
+console.log("=========================================================")
+//Contagem regressiva
+contador = 10
+
+while (contador >= 0) {
+    console.log(contador)
+    contador--
+}
